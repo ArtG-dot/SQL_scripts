@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EC58457-AF6A-4DCF-B285-7449D785A4DE}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\03. DB_Info.sql = Queries\03. DB_Info.sql
+		Queries\04. DB_Trn_Log.sql = Queries\04. DB_Trn_Log.sql
+		Queries\05. DB maintain.sql = Queries\05. DB maintain.sql
+		Queries\20. Pages.sql = Queries\20. Pages.sql
+		Queries\21. Allocation unit.sql = Queries\21. Allocation unit.sql
+		Queries\22. Data storage (partition).sql = Queries\22. Data storage (partition).sql
+		Queries\28. Compression.sql = Queries\28. Compression.sql
+		Queries\29. Statistics.sql = Queries\29. Statistics.sql
+		Queries\30. Views.sql = Queries\30. Views.sql
+		Queries\31. Store Procedures.sql = Queries\31. Store Procedures.sql
+		Queries\32. Functions.sql = Queries\32. Functions.sql
+		Queries\33. Triggers (DML).sql = Queries\33. Triggers (DML).sql
+		Queries\45. Tracking Data Changes.sql = Queries\45. Tracking Data Changes.sql
+		Queries\51. Jobs.sql = Queries\51. Jobs.sql
+		Queries\53. Linked Server.sql = Queries\53. Linked Server.sql
+		Queries\54. Snapshots.sql = Queries\54. Snapshots.sql
+		Queries\55. Backups.sql = Queries\55. Backups.sql
+		Queries\80. User session settings.sql = Queries\80. User session settings.sql
+		Queries\80. Users sessions (online).sql = Queries\80. Users sessions (online).sql
+		Queries\81. Blocking (server).sql = Queries\81. Blocking (server).sql
+		Queries\81. Blocking (session).sql = Queries\81. Blocking (session).sql
+		Queries\82. Plan cache.sql = Queries\82. Plan cache.sql
+		Queries\83. Transactions.sql = Queries\83. Transactions.sql
+		Queries\84. Expensive query.sql = Queries\84. Expensive query.sql
+		Queries\90. Extended SP.sql = Queries\90. Extended SP.sql
+		Queries\91. xp_cmdshell.sql = Queries\91. xp_cmdshell.sql
+		Queries\92. Global Functions.sql = Queries\92. Global Functions.sql
+		Queries\93. DBCC.sql = Queries\93. DBCC.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{F58ED056-0D71-4F56-AE6B-4FC13779F627}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\10. Permissions.sql = Queries\10. Permissions.sql
+		Queries\11. Server level.sql = Queries\11. Server level.sql
+		Queries\12. DB level.sql = Queries\12. DB level.sql
+		Queries\13. Schema Level.sql = Queries\13. Schema Level.sql
+		Queries\14. Encryption.sql = Queries\14. Encryption.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Usefull scripts", "Usefull scripts", "{ED37C320-EC4F-4D29-B60F-D71830415D0E}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\usefull scripts\_GEOMETRY.sql = Queries\usefull scripts\_GEOMETRY.sql
+		Queries\usefull scripts\_ISNULL vs COALESCE.sql = Queries\usefull scripts\_ISNULL vs COALESCE.sql
+		Queries\usefull scripts\_NEWID.sql = Queries\usefull scripts\_NEWID.sql
+		Queries\usefull scripts\_SP+TRIGGER.sql = Queries\usefull scripts\_SP+TRIGGER.sql
+		Queries\usefull scripts\_WINDOWS_FUNCTIONS.sql = Queries\usefull scripts\_WINDOWS_FUNCTIONS.sql
+		Queries\usefull scripts\_XML.sql = Queries\usefull scripts\_XML.sql
+		Queries\usefull scripts\checking.sql = Queries\usefull scripts\checking.sql
+		Queries\usefull scripts\Create Aggregate1.sql = Queries\usefull scripts\Create Aggregate1.sql
+		Queries\usefull scripts\Data_type_Date.sql = Queries\usefull scripts\Data_type_Date.sql
+		Queries\usefull scripts\INSERT_DELETE.sql = Queries\usefull scripts\INSERT_DELETE.sql
+		Queries\usefull scripts\PFS+forward_records.sql = Queries\usefull scripts\PFS+forward_records.sql
+		Queries\usefull scripts\Running_blocked_processes.sql = Queries\usefull scripts\Running_blocked_processes.sql
+		Queries\usefull scripts\бинарные операции.sql = Queries\usefull scripts\бинарные операции.sql
+		Queries\usefull scripts\Генерация данных.sql = Queries\usefull scripts\Генерация данных.sql
+		Queries\usefull scripts\МатСтатистика.sql = Queries\usefull scripts\МатСтатистика.sql
+		Queries\usefull scripts\Палитра Spatial Result.sql = Queries\usefull scripts\Палитра Spatial Result.sql
+		Queries\usefull scripts\Парсинг строки.sql = Queries\usefull scripts\Парсинг строки.sql
+		Queries\usefull scripts\парсинг_xml.sql = Queries\usefull scripts\парсинг_xml.sql
+		Queries\usefull scripts\поиск по содержимому всей базы UBS.sql = Queries\usefull scripts\поиск по содержимому всей базы UBS.sql
+		Queries\usefull scripts\Удаление дублей.sql = Queries\usefull scripts\Удаление дублей.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{BA967C53-0183-4812-81E5-757C0455FD39}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\00. Host_Info.sql = Queries\00. Host_Info.sql
+		Queries\01. Instance_Info.sql = Queries\01. Instance_Info.sql
+		Queries\06. IO system.sql = Queries\06. IO system.sql
+		Queries\07. Buffer Pool.sql = Queries\07. Buffer Pool.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audit", "Audit", "{2EE2E125-FBDB-4505-A541-D038B702B34A}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\42. DB audit.sql = Queries\42. DB audit.sql
+		Queries\43. Data Collector.sql = Queries\43. Data Collector.sql
+		Queries\44. Extended Events.sql = Queries\44. Extended Events.sql
+		Queries\62. Database Mail.sql = Queries\62. Database Mail.sql
+		Queries\63. Alerts.sql = Queries\63. Alerts.sql
+		Queries\64. Logs.sql = Queries\64. Logs.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables_Indexes", "Tables_Indexes", "{0277D6EC-AF6F-4DC2-A036-9253DC8E6E75}"
+	ProjectSection(SolutionItems) = preProject
+		Queries\23. Tables.sql = Queries\23. Tables.sql
+		Queries\23.3. Temp Tables, @Table.sql = Queries\23.3. Temp Tables, @Table.sql
+		Queries\23.4. In-Memory tables.sql = Queries\23.4. In-Memory tables.sql
+		Queries\23.5. Temporal Tables.sql = Queries\23.5. Temporal Tables.sql
+		Queries\24. Indexes (CI, NCI).sql = Queries\24. Indexes (CI, NCI).sql
+		Queries\25. Indexes Maintain.sql = Queries\25. Indexes Maintain.sql
+		Queries\26. Columnstore Index.sql = Queries\26. Columnstore Index.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5510655-1BB6-44E2-9702-FC226E4708A1}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F58ED056-0D71-4F56-AE6B-4FC13779F627} = {2EC58457-AF6A-4DCF-B285-7449D785A4DE}
+		{ED37C320-EC4F-4D29-B60F-D71830415D0E} = {2EC58457-AF6A-4DCF-B285-7449D785A4DE}
+		{BA967C53-0183-4812-81E5-757C0455FD39} = {2EC58457-AF6A-4DCF-B285-7449D785A4DE}
+		{2EE2E125-FBDB-4505-A541-D038B702B34A} = {2EC58457-AF6A-4DCF-B285-7449D785A4DE}
+		{0277D6EC-AF6F-4DC2-A036-9253DC8E6E75} = {2EC58457-AF6A-4DCF-B285-7449D785A4DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {759CA0CA-6705-42D2-8F57-7894654EBDBE}
+	EndGlobalSection
+EndGlobal
